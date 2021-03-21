@@ -1,0 +1,35 @@
+body
+{
+    background-color:black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.hover
+{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    border: 2px solid orangered;
+    margin: 0px;
+    padding: 15px 20px 10px 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 24px;
+    text-align: center;
+    transform: translate(-50%, -50%);  
+    width: 200px;
+    height: 30px;
+    color: orangered;
+    transition: all ease 0.2s;
+}
+.hover:hover
+{
+    border-radius: 5px;
+    border: 2px solid yellowgreen;
+    transform: translate(-50%, -50%);
+    color:yellowgreen;
+    box-shadow: 0 10px 6px -6px yellowgreen;
+    clip-path: inset(0px 0px -8px 0px);
+    transition: all ease 0.2s;
+}
